@@ -1,0 +1,34 @@
+/*---
+title:   isrc-dashboard.css
+---
+Dashboad classes. 
+This css file is only loaded in the admin area dashboard. No need to minimize.
+
+*/
+#isrc_dahsboard_w .inside ul {
+    border: 1px solid #dedede;
+    max-height: 200px;
+    overflow-x: auto;
+}
+
+#isrc_dahsboard_w .inside ul li {
+    background: #f3f3f3;
+    padding: 4px;
+    margin-bottom: 0px;
+}
+
+#isrc_dahsboard_w .inside ul li .isrc_ago {
+    float: right;
+    margin-right: 10px
+}
+
+#isrc_dahsboard_w .inside ul li:after {
+    content: "";
+    clear: both;
+}
+
+#isrc_dahsboard_w .inside ul > li:nth-child(odd) {
+    background: #fff;
+}
+
+​

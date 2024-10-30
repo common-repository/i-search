@@ -1,0 +1,28 @@
+.all-4-wp-plugins-list {
+    display: inline-block;
+    position: relative;
+    margin: 12px 0 25px;
+    width: 100%;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+    border: 1px solid #e5e5e5;
+    background: #fff;
+    color: #555;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.all4wp_plugin_list.plugin-card .desc, .plugin-card .name {
+    margin-left: 148px;
+    margin-right: 0;
+}
+
+.is_installed {
+    font-weight: 400 !important;
+    float: right;
+}
+
+.all4wp_plugin_list:hover {
+    background: #dedede;
+    cursor: pointer;
+}

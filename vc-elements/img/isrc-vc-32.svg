@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="32px" height="32px" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 32.0004 32.0004"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:none}
+    .fil1 {fill:#002337}
+    .fil3 {fill:#00ADEF}
+    .fil2 {fill:#EF3274}
+    .fil4 {fill:#FEED01}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0" d="M2.99983 0.000377956l26.0003 0c1.65658,-0.000377956 3.00021,1.34325 3.00021,2.99983l-0.000377956 26.0003c0.000377956,1.6562 -1.34325,2.99983 -2.99983,2.99983l-26.0003 0c-1.6562,0 -2.99983,-1.34363 -2.99983,-3.00021l0 -26c0,-1.65658 1.34363,-3.00021 3.00021,-3.00021z"/>
+  <g id="_385163080">
+   <path id="_385172080" class="fil1" d="M16 0.000377956c7.41511,0 13.4265,5.99589 13.4265,13.3921 0,3.97231 -1.73444,7.53984 -4.48822,9.99239l0.00113387 0 -8.93941 8.6155 -8.93941 -8.6155 0.00151182 0c-2.75416,-2.45255 -4.4886,-6.02008 -4.4886,-9.99239 0,-7.39622 6.01139,-13.3921 13.4265,-13.3921z"/>
+   <g>
+    <g>
+     <rect id="_385171888" class="fil2" x="7.50918" y="12.1328" width="4.79764" height="8.18018" rx="2.39889" ry="2.39889"/>
+     <rect id="_385171480" class="fil2" x="7.50918" y="6.57576" width="4.79764" height="4.72864" rx="2.36449" ry="2.36449"/>
+    </g>
+    <g>
+     <rect id="_385171144" class="fil3" x="19.6931" y="12.1328" width="4.79764" height="8.18018" rx="2.39889" ry="2.39889"/>
+     <rect id="_385171408" class="fil3" x="19.6931" y="6.57576" width="4.79764" height="4.72864" rx="2.36449" ry="2.36449"/>
+    </g>
+    <g>
+     <rect id="_385170832" class="fil4" x="13.6012" y="9.88925" width="4.79764" height="12.6672" rx="2.39889" ry="2.39889"/>
+     <rect id="_385171240" class="fil4" x="13.6012" y="4.36674" width="4.79764" height="4.72864" rx="2.36449" ry="2.36449"/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>

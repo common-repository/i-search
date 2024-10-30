@@ -1,0 +1,1429 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: i-Search\n"
+"POT-Creation-Date: 2018-06-22 11:20+0300\n"
+"PO-Revision-Date: 2018-06-22 12:50+0300\n"
+"Last-Translator: Fatih <fatiharaz1980@gmail.com>\n"
+"Language-Team: Fatih <fatiharaz1980@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: i_search.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: de\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/admin-functions.php:1116
+msgid "Sorry, but your did you mean text does not return any search results."
+msgstr "Sorry, aber dein \"Did you mean\" Text liefert keine Suchergebnisse."
+
+#: admin/admin-functions.php:1162
+msgid "Please select a post."
+msgstr "Bitte wählen Sie einen Beitrags–Typ"
+
+#: admin/admin-functions.php:1177
+msgid "Can not find the log in the DB. Please reload the page and try again."
+msgstr ""
+"Der Log in der DB kann nicht gefunden werden. Bitte laden Sie die Seite neu "
+"und versuchen Sie es erneut."
+
+#: admin/admin-functions.php:1350
+msgid "No results found."
+msgstr "Nichts gefunden"
+
+#: admin/admin-functions.php:1356
+msgid "Success... Deleting log."
+msgstr "Erfolg... Protokoll löschen."
+
+#: admin/class-admin-main.php:908
+msgid "Search..."
+msgstr "Suchen..."
+
+#: admin/class-admin-main.php:920
+msgid "Submit"
+msgstr "Suchen"
+
+#: admin/class-admin-main.php:926 front/class-front-main.php:204
+msgid "View All"
+msgstr "Alle"
+
+#: admin/class-admin-main.php:927
+msgid "No results"
+msgstr "Keine Ergebnisse"
+
+#: admin/class-admin-main.php:928
+msgid "Did you mean"
+msgstr "Meintest du"
+
+#: admin/class-admin-main.php:929 front/class-front-main.php:213
+msgid "Nothing Found. Popular Searches"
+msgstr "Nichts gefunden. beliebte Suchanfragen"
+
+#: admin/help_files/admin_help_infos.php:26
+msgid ""
+"Select the post types to index for search results. Select only for visitors "
+"visible post types. Some plugins/themes add post types only for "
+"administration use. Only selected post types will be visible in search "
+"results."
+msgstr ""
+"Wählen Sie die Beitragstypen aus, die für Suchergebnisse indexiert werden "
+"sollen. Wählen Sie nur für Besucher sichtbare Post-Typen. Einige Plugins / "
+"Themes fügen Post-Typen nur zur Administration hinzu. Nur ausgewählte "
+"Beitragstypen werden in den Suchergebnissen angezeigt."
+
+#: admin/help_files/admin_help_infos.php:32
+msgid ""
+"Select Tags which will be included in search algorithm. if a post have "
+"connections with this tags. This tag will also be included in algorithm. "
+"Lets assume you have a post with \"adidas, nike\" tags or a category named "
+"\"women clothes\". If a user searched for \"adidas\" or \"nike\" or \"women "
+"clothes\" then this posts will be included in search results."
+msgstr ""
+"Wählen Sie Tags aus, die im Suchalgorithmus enthalten sein sollen. wenn ein "
+"Beitrag Verbindungen mit diesen Tags hat wird  es in den Suchanfragen "
+"berücksichtigt. Nehmen wir an, Sie haben einen Post mit \"adidas, nike\" -"
+"Tags oder eine Kategorie namens \"women clothes\". Wenn ein Nutzer nach "
+"\"adidas\" oder \"nike\" oder \"women clothes\" sucht, werden diese Beiträge "
+"in den Suchergebnissen angezeigt."
+
+#: admin/help_files/admin_help_infos.php:38
+msgid "Enable live search in front-end."
+msgstr "Live-Suche im Front-End aktivieren"
+
+#: admin/help_files/admin_help_infos.php:46
+msgid ""
+"WP do not recognize the search terms from i-Search. If enabled WP will only "
+"use i-Search terms as search results."
+msgstr ""
+"In WP eigene suchen werden die von i-Search generierten such tags nicht mit "
+"einbezogen. Wenn aktiviert wird WP eigene Suchmachine mit i-Search ersetzt."
+
+#: admin/help_files/admin_help_infos.php:52
+msgid ""
+"i-Search will log every not found results. In the analysis tab, you can "
+"analyse and do some actions for the searched string."
+msgstr ""
+"i-Suche protokolliert jede nicht gefundene Resultate. In der Tab Analyse "
+"können Sie diese analysieren und einige Aktionen für die gesuchte Anfragen "
+"machen."
+
+#: admin/help_files/admin_help_infos.php:58
+msgid ""
+"Replace the default WP search input field in front-end with i-Search live "
+"search input field. If disabled, you need to manually insert the search form "
+"with PHP or shortcode. Check the documentation for more info about shortcode "
+"usage and PHP functions."
+msgstr ""
+"Ersetzen Sie das Standard-Eingabefeld für die WP-Suche im Frontend durch das "
+"Eingabefeld für die i-Search Live-Suche. Wenn deaktiviert, müssen Sie das "
+"Suchformular manuell mit PHP oder Shortcode eingeben. Weitere Informationen "
+"zur Verwendung von Shortcodes und PHP-Funktionen finden Sie in der "
+"Dokumentation."
+
+#: admin/help_files/admin_help_infos.php:65
+msgid ""
+"by default i-Search will use the WP intern wp-ajax function. This function "
+"is loading the whole WP framework. By enabling the boost function all this "
+"process will be skipped and save you a lot of time and server capacities."
+msgstr ""
+"Standardmäßig verwendet i-Search die WP-interne wp-ajax-Funktion. Diese "
+"Funktion lädt das gesamte WP-Framework. Durch Aktivieren der Boost-Funktion "
+"wird dieser Vorgang übersprungen und dies erspart ihnen Ladezeiten und "
+"Serverkapazitäten."
+
+#: admin/help_files/admin_help_infos.php:71
+msgid "The placeholder in the search field."
+msgstr "Der Platzhaltertext für das Suchfeld."
+
+#: admin/help_files/admin_help_infos.php:79
+msgid ""
+"Show/Hide the submit button near the search field. \n"
+"By default its disabled because by hitting the ENTER key the user is "
+"redirected to the WP default search."
+msgstr ""
+"Zeige / Verstecke die Absenden-Schaltfläche neben dem Suchfeld.\n"
+"Standardmäßig ist es deaktiviert, da durch Drücken der EINGABETASTE der "
+"Benutzer zur Standardsuchfunktion von WP umgeleitet wird."
+
+#: admin/help_files/admin_help_infos.php:88
+msgid ""
+"If no results found show this string. Only if popularity index is disabled "
+"or popular searches are not yet available."
+msgstr ""
+"Wenn keine Ergebnisse gefunden werden, wird dieser text angezeigt. Nur wenn "
+"der Popularitätsindex deaktiviert ist oder populäre Suchen noch nicht "
+"verfügbar sind."
+
+#: admin/help_files/admin_help_infos.php:96
+msgid ""
+"If a did you mean result is available show this label before the string."
+msgstr ""
+"Wenn ein \"Did you mean\" Ergebnis verfügbar ist, zeige dieses Label vor dem "
+"String."
+
+#: admin/help_files/admin_help_infos.php:104
+msgid "Maximum suggestions to show for every selected post type / taxonomy."
+msgstr "Max. Suchergenisse die angezeigt werden für jeden gewählten Post Type."
+
+#: admin/help_files/admin_help_infos.php:112
+msgid ""
+"Maximum height of the suggestion container. \n"
+"<strong>Automatic calculation:</strong> the container height will fit in the "
+"screen with scrollbar.\n"
+"<strong>Maximum:</strong> the maximum height will be used to avoid "
+"scrollbars in the container. Some templates maybe have problems with this "
+"option.\n"
+"<strong>Custom value:</strong> enter a custom height of the container. If "
+"the content not fit in the given height the rest will be scrollable."
+msgstr ""
+"Maximale Höhe dsr Suchergebnisse Containers\n"
+"<strong> Automatische Berechnung: </ strong> Die Containerhöhe passt in den "
+"Bildschirm mit Scrollbalken.\n"
+"<strong> Maximum: </ strong> Die maximale Höhe wird verwendet, um "
+"Scrollbalken im Container zu vermeiden. Einige Templates haben "
+"möglicherweise Probleme mit dieser Option.\n"
+"<strong> Benutzerdefinierter Wert: </ strong> Geben Sie eine "
+"benutzerdefinierte Höhe des Containers ein. Wenn der Inhalt nicht in die "
+"angegebene Höhe passt, kann der Rest gescrollt werden."
+
+#: admin/help_files/admin_help_infos.php:121
+msgid "Suggestions ordered by TABS."
+msgstr "Suchergebnisse geordnet basierend auf Tab's"
+
+#: admin/help_files/admin_help_infos.php:129
+msgid ""
+"You can change the order of the tabs by dragn drop. You can also add "
+"taxonomies to the tabs. This taxonomies will be indexed for suggestions. If "
+"you changed the post types inclusion and can not see it in the tabs, save "
+"your settings first  then selected post types will be available in the tabs."
+msgstr ""
+"Sie können die Reihenfolge der Tabs durch Drag-Drop ändern. Sie können den "
+"Tabs auch Taxonomien hinzufügen. Diese Taxonomien werden für Vorschläge "
+"indexiert. Wenn Sie die indizierung der Beitragstypen geändert haben und sie "
+"nicht hier angezeigt wird, speichern Sie zunächst Ihre Einstellungen, und "
+"die ausgewählten Beitragstypen sind dann auf den hier verfügbar."
+
+#: admin/help_files/admin_help_infos.php:137
+msgid ""
+"Shows thumbnails in suggestions. If enabled you can set the thumbnails "
+"height and width. i-Search will create the thumbnails on the fly if they not "
+"exists in the selected dimensions and delete old (from i-Search created) "
+"thumbnails if you change the size to keep your folders clean."
+msgstr ""
+"Zeigt Miniaturansichten in Vorschlägen an. Wenn aktiviert, können Sie die "
+"Höhe und Breite der Miniaturansichten festlegen. i-Search erstellt die "
+"Thumbnails im laufenden Betrieb, wenn sie nicht in den ausgewählten "
+"Dimensionen vorhanden sind, und löscht alte (von i-Search erstellte) "
+"Thumbnails, wenn Sie die Größe ändern, um Ihre Ordner sauber zu halten."
+
+#: admin/help_files/admin_help_infos.php:143
+msgid ""
+"Shows the post excerpt in the suggestions. If no excerpt is available an "
+"excerpt will be generated from the post content. The excerpt is always one "
+"line long (clean template) and will be truncated with 3 dots."
+msgstr ""
+"Zeigt den Post-Auszug in den Vorschlägen. Wenn kein Auszug verfügbar ist, "
+"wird ein Auszug aus dem Post-Inhalt generiert. Der Auszug ist immer eine "
+"Zeile lang (saubere Vorlage) und wird mit 3 Punkten abgeschnitten."
+
+#: admin/help_files/admin_help_infos.php:151
+msgid ""
+"A View All text will appear in the bottom of the suggestions to redirect the "
+"user to the WP search."
+msgstr ""
+"Am Ende der Vorschläge wird der Text Alle anzeigen angezeigt, um den "
+"Benutzer zur WP-Suche umzuleiten."
+
+#: admin/help_files/admin_help_infos.php:159
+msgid ""
+"Here you see all of the meta keys in your WP. This does not mean that every "
+"post use this meta keys. Include meta keys which you want to be included in "
+"the search algorithm. Lets assume you have a post with a meta key "
+"\"manufacturer\" and the meta value of \"manufacturer\" is Sennheiser. If "
+"you include the \"manufacturer\" meta key, a search for \"Sennheiser\" will "
+"now include all post with \"Sennheiser\" as the meta value of \"manufacturer"
+"\"."
+msgstr ""
+"Hier sehen Sie alle Meta-Schlüssel in Ihrem WP. Dies bedeutet nicht, dass "
+"jeder Beitrag diese Metaschlüssel verwendet. Fügen Sie Metaschlüssel hinzu, "
+"die in den Suchalgorithmus aufgenommen werden sollen. Nehmen wir an, Sie "
+"haben einen Post mit einem Metaschlüssel \"Hersteller\" und der Meta-Wert "
+"von \"Hersteller\" ist Sennheiser. Wenn Sie den Meta-Schlüssel \"Hersteller"
+"\" einfügen, wird eine Suche nach \"Sennheiser\" nun alle Beiträge mit "
+"\"Sennheiser\" als Meta-Wert von \"Hersteller\" enthalten."
+
+#: admin/help_files/admin_help_infos.php:165
+msgid ""
+"Here you see all of the taxonomies in your WP. This does not mean that every "
+"post use this taxonomies. <br>Include taxonomies which you want to be "
+"included in the search algorithm. <br>Lets assume you have a post with a "
+"taxonomy \"manufacturer\" and connected taxonomy value of \"manufacturer\" "
+"is Sennheiser. <br>If you include the \"manufacturer\" taxonomy, a search "
+"result for \"Sennheiser\" will now include all post with \"Sennheiser\" as "
+"taxonomy value of \"manufacturer\"."
+msgstr ""
+"Hier sehen Sie alle Taxonomien in Ihrem WP. Dies bedeutet nicht, dass jeder "
+"Post diese Taxonomien verwendet. <br> Schließen Sie Taxonomien ein, die in "
+"den Suchalgorithmus aufgenommen werden sollen. <br> Nehmen wir an, Sie haben "
+"einen Beitrag mit einer Taxonomie \"Hersteller\" und verbundenen Taxonomie-"
+"Wert von \"Hersteller\" ist Sennheiser. <br> Wenn Sie die Taxonomie "
+"\"Hersteller\" einbeziehen, enthält ein Suchergebnis für \"Sennheiser\" "
+"jetzt alle Beiträge mit \"Sennheiser\" als Taxonomiewert von \"Hersteller\"."
+
+#: admin/help_files/admin_help_infos.php:171
+msgid ""
+"This words are always excluded from the search algorithm. For example you "
+"have a tag which is almost present in every post. Here you can enter the "
+"words you want to exclude. Wildcards are allowed. If you have the tag \"blog "
+"posts\" and \"bloger posts\" almost in every post. If you now search for "
+"\"blog\" you will not get a good search result. You can add <code>blog*</"
+"code> as a \"bad word\" here and everything beginning with \"blog\" will be "
+"excluded from the search results."
+msgstr ""
+"Diese Wörter sind immer vom Suchalgorithmus ausgeschlossen. Zum Beispiel "
+"haben Sie einen Tag, der fast in jedem Beitrag vorhanden ist. Hier können "
+"Sie die Wörter eingeben, die Sie ausschließen möchten. Platzhalter sind "
+"erlaubt. Wenn Sie das Tag \"Blog Posts\" und \"Blog Posts\" fast in jedem "
+"Post haben. Wenn Sie jetzt nach \"blog\" suchen, erhalten Sie kein gutes "
+"Suchergebnis. Sie können <code> blog * </ code> hier als \"schlechtes Wort\" "
+"hinzufügen und alles, was mit \"blog\" beginnt, wird von den Suchergebnissen "
+"ausgeschlossen."
+
+#: admin/help_files/admin_help_infos.php:177
+msgid ""
+"If you delete i-Search all the data from i-Search will be deleted. All the "
+"settings, all the database entries from i-Search. This action is only for "
+"deleting the plugin and not deactivating the plugin. On deactivate and "
+"activate the plugin the data will not be deleted. Only on completely "
+"deleting from the plugins menu."
+msgstr ""
+"Wenn Sie i-Search löschen, werden alle Daten von i-Search gelöscht. Alle "
+"Einstellungen, alle Datenbankeinträge von i-Search. Diese Aktion dient nur "
+"zum Löschen des Plugins und nicht zum Deaktivieren des Plugins. Wenn Sie das "
+"Plugin deaktivieren und aktivieren, werden die Daten nicht gelöscht. Nur "
+"beim vollständigen Löschen aus dem Plugins-Menü."
+
+#: admin/help_files/admin_help_infos.php:183
+msgid ""
+"This words are always excluded from logging. For example someone is always "
+"searching for \"asdasd\". i-Search tries to detect spam. If a user with the "
+"same ip address gets no search results over 15 times in a day than the users "
+"ip address will be marked as spam and i-Search will no longer log this users "
+"not found results for 24 Hours. The user will still get search results (if "
+"found) of course. If you want to exclude continuously repeating same logs, "
+"here you can enter the \"Bad Words\". Wild cards are allowed. For example: "
+"If you enter only <code>asd</code> without a wildcard, only \"asd\" will be "
+"excluded and not \"asdasd\". If you enter <code>*asd*</code> as a bad word "
+"everything beginning and ending with \"asd\" will no longer logged."
+msgstr ""
+"Diese Wörter sind immer von der Protokollierung ausgeschlossen. Zum Beispiel "
+"sucht jemand immer nach \"asdasd\". i-Search versucht Spam zu erkennen. Wenn "
+"ein Benutzer mit derselben IP-Adresse über 15 Mal an einem Tag keine "
+"Suchergebnisse erhält, wird die IP-Adresse des Benutzers als Spam markiert "
+"und i-Search protokolliert diese Ergebnisse nicht mehr für 24 Stunden. Der "
+"Benutzer erhält natürlich weiterhin Suchergebnisse (falls gefunden). Wenn "
+"Sie immer wieder dieselben Protokolle ausschließen möchten, können Sie hier "
+"die \"Bad Words\" eingeben. Wildcards sind erlaubt. Beispiel: Wenn Sie nur "
+"<code> asd </ code> ohne Platzhalter eingeben, wird nur \"asd\" "
+"ausgeschlossen und nicht \"asdasd\". Wenn Sie <code> * asd * </ code> als "
+"schlechtes Wort eingeben, wird alles, was mit \"asd\" beginnt und endet, "
+"nicht mehr protokolliert."
+
+#: admin/help_files/admin_help_infos.php:189
+msgid ""
+"In this table you will see all the search strings with no results.\n"
+"<strong>Searched string:</strong> This string will be updated if a similar "
+"word is searched. Example: a user searched for \"shoe\" and get no results. "
+">Here you will see the word \"shoe\" if you did not make any actions for "
+"\"shoe\" and a user searched for \"shoes\" and still get no results than the "
+"\"shoe\" word in the table will be updated with \"shoes\".\n"
+"<strong>Flow:</strong> Example: If a user searched for \"shoes\" without "
+"results and than searched for \"Nike\" with search results and clicked "
+"\"Nike Air Max 270\" you will see in the flows the word \"Nike\" and in "
+"brackets the clicked search result \"Nike Air Max 270\".\n"
+"<strong>Action:</strong> You will see here the \"Did you mean\" string if "
+"you entered a string.\n"
+"<strong>Count:</strong> How many users from different ip addresses searched "
+"for this string.\n"
+"<strong>Time:</strong> The latest log time.\n"
+"<strong>Latest IP:</strong> The latest users ip address.\n"
+"<strong>Edit Button:</strong> You can make some actions like add a \"Did you "
+"mean\" string, Add this string to a posts search terms..."
+msgstr ""
+"In dieser Tabelle sehen Sie alle Suchzeichenfolgen ohne Ergebnisse.\n"
+"<strong> Gesuchte Zeichenfolge: </ strong> Diese Zeichenfolge wird "
+"aktualisiert, wenn nach einem ähnlichen Wort gesucht wird. Beispiel: Ein "
+"Benutzer sucht nach \"Schuh\" und erhält keine Ergebnisse. > Hier sehen Sie "
+"das Wort \"Schuh\", wenn Sie keine Aktionen für \"Schuh\" gemacht haben und "
+"ein Nutzer nach \"Schuhen\" gesucht hat und immer noch keine Ergebnisse "
+"erzielt, wenn das Wort \"Schuh\" in der Tabelle mit \"Schuhe\" aktualisiert "
+"wird .\n"
+"<strong> Flow: </ strong> Beispiel: Wenn ein Nutzer nach \"Schuhe\" ohne "
+"Ergebnisse sucht und dann nach \"Nike\" mit Suchergebnissen sucht und auf "
+"\"Nike Air Max 270\" klickt, wird in den Abläufen das Wort \"Nike\" "
+"angezeigt. und in Klammern das angeklickte Suchergebnis \"Nike Air Max "
+"270\".\n"
+"<strong> Aktion: </ strong> Sie sehen hier die Zeichenfolge \"Meinten Sie\", "
+"wenn Sie eine Zeichenfolge eingegeben haben.\n"
+"<strong> Anzahl: </ strong> Wie viele Benutzer von verschiedenen IP-Adressen "
+"nach dieser Zeichenfolge gesucht haben.\n"
+"<strong> Zeit: </ strong> Die letzte Protokollierungszeit.\n"
+"<strong> Neueste IP: </ strong> Die neueste Benutzer-IP-Adresse.\n"
+"<strong> Schaltfläche \"Bearbeiten\": </ strong> Sie können einige Aktionen "
+"ausführen, wie z. B. eine Zeichenfolge \"Meinten Sie\", diese Zeichenfolge "
+"zu den Suchbegriffen einer Nachricht hinzufügen ..."
+
+#: admin/help_files/admin_help_infos.php:202
+msgid ""
+"The order of the search results.\n"
+"<strong>Order by latest post:</strong> The search results will be ordered by "
+"the last inserted post.\n"
+"<strong>Order by click popularity:</strong> i-Search will log the user "
+"clicks on the search suggestion and build a popularity index."
+msgstr ""
+"Die Reihenfolge der Suchergebnisse.\n"
+"<strong> Ordnen nach dem letzten Beitrag: </ strong> Die Suchergebnisse "
+"werden nach dem zuletzt eingefügten Post sortiert.\n"
+"<strong> Reihenfolge nach Klickpopularität: </ strong> i-Search "
+"protokolliert den Nutzer, klickt auf den Suchvorschlag und erstellt einen "
+"Popularitätsindex."
+
+#: admin/help_files/admin_help_infos.php:210
+msgid ""
+"Database actions. You can empty i-Search database tables. And start from the "
+"beginning."
+msgstr ""
+"Datenbankaktionen Sie können i-Search-Datenbanktabellen leeren. Und fang von "
+"vorne an."
+
+#: admin/help_files/admin_help_infos.php:216
+msgid ""
+"Popularity index. i-Search will log every click on search suggestions and "
+"generate a popularity index based on clicks. The popularity index is useful "
+"if you want to show popular searches instead of a \"Nothing Found\" string. "
+"Popularity index is also good for search results ordering. You can select in "
+"the \"Order search results\" option: order by click popularity. If you "
+"disable this checkbox. Make sure that you have NOT selected the order by "
+"click popularity. If you still select the order by click popularity option. "
+"This checkbox will automatically selected on save."
+msgstr ""
+"Popularitätsindex. i-Search protokolliert jeden Klick auf Suchvorschläge und "
+"generiert einen Popularitätsindex basierend auf Klicks. Der "
+"Popularitätsindex ist nützlich, wenn Sie beliebte Suchanfragen anstelle von "
+"\"Nichts gefunden\" anzeigen möchten. Der Popularitätsindex ist auch gut für "
+"die Reihenfolge der Suchergebnisse. Sie können in der Option "
+"\"Suchergebnisse bestellen\" auswählen: Reihenfolge nach Klickpopularität. "
+"Wenn Sie dieses Kontrollkästchen deaktivieren. Stellen Sie sicher, dass Sie "
+"die Reihenfolge NICHT nach Klickpopularität ausgewählt haben. Wenn Sie die "
+"Reihenfolge noch nach Klick-Option auswählen. Dieses Kontrollkästchen wird "
+"beim Speichern automatisch ausgewählt."
+
+#: admin/help_files/admin_help_infos.php:224
+msgid ""
+"The label for todays popular searches. (If popular searches available and "
+"visitors search do not return any result.)"
+msgstr ""
+"Das Etikett für heutige populäre Suchen. (Wenn beliebte Suchanfragen "
+"verfügbar sind und die Besuchersuche kein Ergebnis liefert.)"
+
+#: admin/help_files/admin_help_infos.php:232
+msgid "Hide the selected fields for Phones/Tablets."
+msgstr "Blenden Sie die ausgewählten Felder für Phones / Tablets aus."
+
+#: admin/help_files/admin_help_infos.php:238
+msgid ""
+"Some templates have not jQuery included by default. <br>Enable this checkbox "
+"to include the jQuery library in front."
+msgstr ""
+"Bei einigen Templates ist jQuery standardmäßig nicht enthalten. <br> "
+"Aktivieren Sie dieses Kontrollkästchen, um die jQuery-Bibliothek im "
+"Vordergrund einzubeziehen."
+
+#: admin/help_files/admin_help_infos.php:244
+msgid "ONLY in advanced theme."
+msgstr "NUR in Advanced Theme."
+
+#: admin/help_files/admin_help_infos.php:252
+msgid "On mobile devices always the clean template is used. Theme screenshots:"
+msgstr ""
+"Auf mobilen Geräten wird immer die 'clean template' verwendet. Template "
+"Screenshots:"
+
+#: admin/menu/class-dashboard.php:77
+msgid "Last 10 not found search queries"
+msgstr "Die letzten 10 nicht gefundenen Suchanfragen"
+
+#: admin/menu/class-dashboard.php:84
+#, php-format
+msgctxt "%s = human-readable time difference"
+msgid "%s ago"
+msgstr "vor %s"
+
+#: admin/menu/class-dashboard.php:97
+msgid "Today's popular searches"
+msgstr "Beliebte Suchen"
+
+#: admin/menu/class-menu.php:248
+msgid "Settings Saved."
+msgstr "Änderungen gespeichert"
+
+#: admin/menu/class-menu.php:267
+msgid "i-Search Settings"
+msgstr "i-Search Settings"
+
+#. Plugin Name of the plugin/theme
+#: admin/menu/class-menu.php:268
+msgid "i-Search"
+msgstr "i-Search"
+
+#: admin/menu/class-menu.php:423
+msgid "Selectable Meta Keys"
+msgstr "Meta Keys"
+
+#: admin/menu/class-menu.php:424
+msgid "Selected Meta Keys"
+msgstr "Ausgewählte Meta-Keys"
+
+#: admin/menu/class-menu.php:430
+msgid "Remove Term"
+msgstr "Löschen"
+
+#: admin/menu/class-menu.php:431
+msgid "Term Selected"
+msgstr "Markierter Begriff"
+
+#: admin/menu/class-menu.php:432
+msgid "Term Added"
+msgstr "Hinzugefügt"
+
+#: admin/menu/class-menu.php:433
+msgid "Term Removed"
+msgstr "Begriff entfernt."
+
+#: admin/menu/class-menu.php:458 admin/menu/class-menu.php:517
+#: admin/menu/class-menu.php:571
+msgid "You have no permissions."
+msgstr "Sie haben keine Berechtigungen."
+
+#: admin/menu/class-wp-list-table-logs.php:45
+msgid "Search log"
+msgstr "Such Log"
+
+#: admin/menu/class-wp-list-table-logs.php:46
+msgid "Search logs"
+msgstr "Such Logs"
+
+#: admin/menu/class-wp-list-table-logs.php:79
+msgid "All"
+msgstr "Alle"
+
+#: admin/menu/class-wp-list-table-logs.php:80
+msgid "DYM"
+msgstr "Did You Mean"
+
+#: admin/menu/class-wp-list-table-logs.php:81
+msgid "Popular"
+msgstr "Beliebt"
+
+#: admin/menu/class-wp-list-table-logs.php:122
+msgid "No logs avaliable."
+msgstr "Keine Logs zur Verfügung."
+
+#: admin/menu/class-wp-list-table-logs.php:242
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: admin/menu/class-wp-list-table-logs.php:298
+msgid "Did You Mean:"
+msgstr "Meinten Sie:"
+
+#: admin/menu/class-wp-list-table-logs.php:301
+msgid "Popular Searches:"
+msgstr "Beliebte Suchanfragen:"
+
+#: admin/menu/class-wp-list-table-logs.php:418
+#, php-format
+msgid "%s items"
+msgstr "%s Elemente"
+
+#: admin/menu/class-wp-list-table-logs.php:663
+msgid "Title"
+msgstr "Titel"
+
+#: admin/menu/class-wp-list-table-logs.php:664
+msgid "Hits"
+msgstr "Aufrufe"
+
+#: admin/menu/class-wp-list-table-logs.php:665
+#: admin/menu/class-wp-list-table-logs.php:677
+msgid "Time"
+msgstr "Zeit"
+
+#: admin/menu/class-wp-list-table-logs.php:673
+msgid "Searched string"
+msgstr "Suchanfrage"
+
+#: admin/menu/class-wp-list-table-logs.php:674
+msgid "Flow"
+msgstr "Durchfluss"
+
+#: admin/menu/class-wp-list-table-logs.php:675
+msgid "Action"
+msgstr "Aktion"
+
+#: admin/menu/class-wp-list-table-logs.php:676
+msgid "Count"
+msgstr "Anzahl"
+
+#: admin/menu/class-wp-list-table-logs.php:678
+msgid "latest IP"
+msgstr "neueste IP"
+
+#: admin/menu/class-wp-list-table-org.php:152
+msgid "List View"
+msgstr "Listenansicht"
+
+#: admin/menu/class-wp-list-table-org.php:153
+msgid "Excerpt View"
+msgstr "Auszug-Anzeige"
+
+#: admin/menu/class-wp-list-table-org.php:314
+msgid "No items found."
+msgstr "Keine Elemente gefunden"
+
+#: admin/menu/class-wp-list-table-org.php:436
+msgid "Select bulk action"
+msgstr "Mehrfachauswahl"
+
+#: admin/menu/class-wp-list-table-org.php:438
+msgid "Bulk Actions"
+msgstr "Sammelaktion"
+
+#: admin/menu/class-wp-list-table-org.php:448
+msgid "Apply"
+msgstr "Übernehmen"
+
+#: admin/menu/class-wp-list-table-org.php:496
+#: admin/menu/class-wp-list-table-org.php:1274
+msgid "Show more details"
+msgstr "Mehr Details anzeigen"
+
+#: admin/menu/class-wp-list-table-org.php:558
+msgid "Filter by date"
+msgstr "Nach Datum sortieren"
+
+#: admin/menu/class-wp-list-table-org.php:560
+msgid "All dates"
+msgstr "alle Datumsangaben"
+
+#: admin/menu/class-wp-list-table-org.php:573
+#, php-format
+msgid "%1$s %2$d"
+msgstr "%1$s %2$d"
+
+#: admin/menu/class-wp-list-table-org.php:623
+#, php-format
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/menu/class-wp-list-table-org.php:624
+#, php-format
+msgid "%s approved comment"
+msgid_plural "%s approved comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/menu/class-wp-list-table-org.php:625
+#, php-format
+msgid "%s pending comment"
+msgid_plural "%s pending comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/menu/class-wp-list-table-org.php:630
+#: admin/menu/class-wp-list-table-org.php:642
+#: admin/menu/class-wp-list-table-org.php:655
+msgid "No comments"
+msgstr "Keine Kommentare"
+
+#: admin/menu/class-wp-list-table-org.php:642
+msgid "No approved comments"
+msgstr "Keine genehmigten Kommentare"
+
+#: admin/menu/class-wp-list-table-org.php:655
+msgid "No pending comments"
+msgstr "Keine ausstehenden Kommentare"
+
+#: admin/menu/class-wp-list-table-org.php:729
+#: admin/menu/class-wp-list-table-org.php:1298
+#, php-format
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/menu/class-wp-list-table-org.php:765
+msgid "First page"
+msgstr "Erste Seite"
+
+#: admin/menu/class-wp-list-table-org.php:775
+msgid "Previous page"
+msgstr "Vorherige Seite"
+
+#: admin/menu/class-wp-list-table-org.php:782
+#: admin/menu/class-wp-list-table-org.php:785
+msgid "Current Page"
+msgstr "Aktuelle Seite"
+
+#: admin/menu/class-wp-list-table-org.php:791
+#, php-format
+msgctxt "paging"
+msgid "%1$s of %2$s"
+msgstr "%1$s von %2$s"
+
+#: admin/menu/class-wp-list-table-org.php:798
+msgid "Next page"
+msgstr "Nächste Seite"
+
+#: admin/menu/class-wp-list-table-org.php:808
+msgid "Last page"
+msgstr "Letzte Seite"
+
+#: admin/menu/class-wp-list-table-org.php:1028
+msgid "Select All"
+msgstr "Alles auswählen"
+
+#: admin/menu/html-menu-advanced.php:40
+msgid "Include Meta Keys in search algorithm"
+msgstr "Meta-Schlüssel im Suchalgorithmus einschließen"
+
+#: admin/menu/html-menu-advanced.php:54
+msgid "Loading Meta Keys... (this may take a while)"
+msgstr "Meta-Keys werden geladen... (Dies kann eine Weile dauern)"
+
+#: admin/menu/html-menu-advanced.php:63
+msgid "Include Taxonomies in search algorithm"
+msgstr "Taxonomien in Such-Algorithmus einschließen"
+
+#: admin/menu/html-menu-advanced.php:77
+msgid "Loading Taxonomies... (this may take a while)"
+msgstr "Taxonomien werden geladen... (Dies kann eine Weile dauern)"
+
+#: admin/menu/html-menu-advanced.php:86
+msgid "Exclude words from search algorithm"
+msgstr "Von der Suche ausschliessen"
+
+#: admin/menu/html-menu-advanced.php:94 admin/menu/html-menu-advanced.php:106
+#: admin/menu/html-menu-advanced.php:119 admin/menu/html-menu-analyze.php:61
+#: admin/menu/html-menu-analyze.php:71 admin/menu/html-menu-analyze.php:83
+#: admin/metabox/class-post-meta-box.php:154
+msgid "Add new word"
+msgstr "Neues Wort hinzufügen"
+
+#: admin/menu/html-menu-advanced.php:123
+msgid "Below words are ALWAYS excluded from the search algorithm"
+msgstr "Stop Wörter - (von der Suche ausgeschlossene Wörter)"
+
+#: admin/menu/html-menu-advanced.php:131
+msgid ""
+"Wildcards are allowed. \"some*word\" will exclude for example \"somebadword, "
+"some_bad_word, some_anything_word...\""
+msgstr ""
+"Platzhalter sind erlaubt. \"some* bad\" werden zum Beispiel \"somebadword, "
+"some_bad_word, some_anything_word ...\" ausschließen."
+
+#: admin/menu/html-menu-advanced.php:140
+msgid "Mobile & Tablet Settings"
+msgstr "Mobil / Tablet"
+
+#: admin/menu/html-menu-advanced.php:152
+msgid "Hide images"
+msgstr "Bilder ausblenden"
+
+#: admin/menu/html-menu-advanced.php:159
+msgid "Hide badges"
+msgstr "Badges ausblenden"
+
+#: admin/menu/html-menu-advanced.php:166
+msgid "Hide excerpt"
+msgstr "Auszug ausblenden"
+
+#: admin/menu/html-menu-advanced.php:173
+msgid "Hide price"
+msgstr "Preis ausblenden"
+
+#: admin/menu/html-menu-advanced.php:180
+msgid "Hide SKU"
+msgstr "Art.-Nr. ausblenden"
+
+#: admin/menu/html-menu-advanced.php:187
+msgid "Hide categories"
+msgstr "Kategorien ausblenden"
+
+#: admin/menu/html-menu-advanced.php:215
+msgid "Include jQuery in front?"
+msgstr "JQuery in Front einbetten"
+
+#: admin/menu/html-menu-advanced.php:229
+msgid "Yes include jQuery in front."
+msgstr "Ja"
+
+#: admin/menu/html-menu-advanced.php:240
+msgid "Database actions"
+msgstr "Datenbankaktionen"
+
+#: admin/menu/html-menu-advanced.php:246
+msgid "Empty all logs"
+msgstr "Lösche alle Logs"
+
+#: admin/menu/html-menu-advanced.php:247
+msgid "Delete all logs"
+msgstr "Lösche alle Logs"
+
+#: admin/menu/html-menu-advanced.php:250
+msgid "Empty popularity index"
+msgstr "Lösche  Popularitätsindex"
+
+#: admin/menu/html-menu-advanced.php:251
+msgid "Delete popularity index"
+msgstr "Lösche  Popularitätsindex"
+
+#: admin/menu/html-menu-advanced.php:254
+msgid "Empty all i-Search tables"
+msgstr "Lösche alle i-Search einträge"
+
+#: admin/menu/html-menu-advanced.php:255
+msgid "Delete all i-Search indexes"
+msgstr "Lösche alle i-Search einträge"
+
+#: admin/menu/html-menu-advanced.php:264
+msgid "Delete data on plugin delete?"
+msgstr "Alle Daten löschen, wenn das Plugin gelöscht wird"
+
+#: admin/menu/html-menu-advanced.php:278
+msgid "Yes delete all the plugin settings on plugin delete."
+msgstr "Alle Plugin-Einstellungen löschen."
+
+#: admin/menu/html-menu-advanced.php:294 admin/menu/html-menu-general.php:1050
+msgid "Update"
+msgstr "Aktualisieren"
+
+#: admin/menu/html-menu-advanced.php:299 admin/menu/html-menu-advanced.php:300
+#: admin/menu/html-menu-general.php:1055 admin/menu/html-menu-general.php:1056
+msgid "Update Settings"
+msgstr "Speichern"
+
+#: admin/menu/html-menu-advanced.php:327
+msgid "This action cannot be undone"
+msgstr "HINWEIS: Diese Aktion kann nicht rückgängig gemacht werden."
+
+#: admin/menu/html-menu-advanced.php:329
+msgid ""
+"This action cannot be undone. It will alse delete all isearch taxonomy meta "
+"data."
+msgstr ""
+"HINWEIS: Diese Aktion kann nicht rückgängig gemacht werden. Es werden auch "
+"alle taxonomie daten gelöscht (von i-Search erstellten)"
+
+#: admin/menu/html-menu-analyze.php:51
+msgid "Exclude words from logging"
+msgstr "Wörter von der Protokollierung ausschließen"
+
+#: admin/menu/html-menu-analyze.php:87
+msgid "Below words are ALWAYS excluded from logging."
+msgstr "Stop Wörter - (von der Suche ausgeschlossene Wörter)"
+
+#: admin/menu/html-menu-analyze.php:89
+msgid ""
+"Wildcards ( <strong>*</strong> ) are allowed. <code>asd*</code> will exclude "
+"\"asd...\" or <code>*asd*</code> will exclude \" ...asd... \""
+msgstr ""
+"Platzhalter (<strong> * </ strong>) sind zulässig. <code> asd * </ code> "
+"schließt \"asd ...\" aus oder <code> * asd * </ code> schließt \"... asd ..."
+"\" aus"
+
+#: admin/menu/html-menu-analyze.php:102
+msgid "Not found search queries"
+msgstr "Nicht gefundene Suchanfragen"
+
+#: admin/menu/html-menu-analyze.php:125
+msgid "Select action for:"
+msgstr "Aktion auswählen"
+
+#: admin/menu/html-menu-analyze.php:135
+msgid "Select action:"
+msgstr "Aktion auswählen"
+
+#: admin/menu/html-menu-analyze.php:142
+msgid "Add to bad words"
+msgstr "Zu stopwörtern hinzufügen"
+
+#: admin/menu/html-menu-analyze.php:145
+msgid "Enter a \"Did You Mean\" string"
+msgstr "Ein \"Did you mean\" Text eingeben"
+
+#: admin/menu/html-menu-analyze.php:148
+msgid "Add this string to a post/taxonomy"
+msgstr "Einer Post/Taxonomies suchwörter hinzufügen"
+
+#: admin/menu/html-menu-analyze.php:151
+msgid "Delete"
+msgstr "Löschen"
+
+#: admin/menu/html-menu-analyze.php:157
+msgid "Did you mean string:"
+msgstr "\"Did you mean\" Text "
+
+#: admin/menu/html-menu-analyze.php:172
+msgid "Select Posts/taxonomies:"
+msgstr "Beiträge/Taxonomien auswählen:"
+
+#: admin/menu/html-menu-analyze.php:185 admin/menu/html-menu-general.php:1087
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: admin/menu/html-menu-analyze.php:188 admin/menu/html-menu-general.php:1090
+msgid "OK"
+msgstr "OK"
+
+#: admin/menu/html-menu-analyze.php:247
+msgid "Start typing..."
+msgstr "Hier eingeben …"
+
+#: admin/menu/html-menu-general.php:38
+msgid "Enable i-Search for Post Types"
+msgstr "Aktivieren Sie i-Search für Post-Typen"
+
+#: admin/menu/html-menu-general.php:69
+msgid "Include in search algorithm"
+msgstr "Enthalten in Such-Algorithmus"
+
+#: admin/menu/html-menu-general.php:83
+msgid "Post Tags"
+msgstr "Post Tags"
+
+#: admin/menu/html-menu-general.php:95
+msgid "Product Tags"
+msgstr "Produkt Tags"
+
+#: admin/menu/html-menu-general.php:107
+msgid "Categories"
+msgstr "Kategorien"
+
+#: admin/menu/html-menu-general.php:119
+msgid "Product Categories"
+msgstr "Produktkategorien"
+
+#: admin/menu/html-menu-general.php:130
+msgid "Frontent settings"
+msgstr "Frontent Einstellungen"
+
+#: admin/menu/html-menu-general.php:142
+msgid "Enable Live Search"
+msgstr "Live-Suche aktivieren"
+
+#: admin/menu/html-menu-general.php:153
+msgid "Replace WP intern search engine with i-Search"
+msgstr "WP eigene suchmaschine durch i-Search ersetzen"
+
+#: admin/menu/html-menu-general.php:164
+msgid "Enable logging for search analysis"
+msgstr "Aktivieren Sie die Protokollierung für die Suche Analyse"
+
+#: admin/menu/html-menu-general.php:175
+msgid "Enable logging for popularity index"
+msgstr "Aktivieren Sie die Protokollierung für Popularitätsindex"
+
+#: admin/menu/html-menu-general.php:184
+msgid "Live search"
+msgstr "Live Suche"
+
+#: admin/menu/html-menu-general.php:192
+msgid "Replace WP search form"
+msgstr "Ersetzen das WP-Suchformular"
+
+#: admin/menu/html-menu-general.php:208
+msgid "Try to replace the default wp search form."
+msgstr "Versuch WP suchfelder durch i-Search zu ersetzen."
+
+#: admin/menu/html-menu-general.php:217
+msgid "Use Roboto font style"
+msgstr "Verwenden Sie den Roboto-Schriftstil"
+
+#: admin/menu/html-menu-general.php:232
+msgid "Load the Google Roboto font in front."
+msgstr "Laden die Google Roboto Schrift."
+
+#: admin/menu/html-menu-general.php:241
+msgid "Boost up search speed"
+msgstr "Erhöhen der Suchgeschwindigkeit"
+
+#: admin/menu/html-menu-general.php:257
+msgid ""
+"The WP intern load engine will be skipped on search requests. If your server "
+"is slow, this option will speed up your search results dramatically."
+msgstr ""
+"Die WP-interne Lade-Engine wird bei Suchanfragen übersprungen. Wenn Ihr "
+"Server langsam ist, beschleunigt diese Option Ihre Suchergebnisse dramatisch."
+
+#: admin/menu/html-menu-general.php:266
+msgid "Suggestions template"
+msgstr "Template"
+
+#: admin/menu/html-menu-general.php:280
+msgid "Clean Template"
+msgstr "Clean Template"
+
+#: admin/menu/html-menu-general.php:281
+msgid "Advanced Template"
+msgstr "Advanced Template"
+
+#: admin/menu/html-menu-general.php:291
+msgid "Order search results"
+msgstr "Suchergebniss Reihenfolge"
+
+#: admin/menu/html-menu-general.php:305
+msgid "By latest post"
+msgstr "Neuste beiträge"
+
+#: admin/menu/html-menu-general.php:306
+msgid "By click popularity"
+msgstr "Klick Popularität"
+
+#: admin/menu/html-menu-general.php:307
+msgid "Randomly"
+msgstr "Zufallsprinzip"
+
+#: admin/menu/html-menu-general.php:317
+msgid "Search input label"
+msgstr "Bezeichnung im Suchfeld"
+
+#: admin/menu/html-menu-general.php:327
+msgid "Label for Search input field."
+msgstr "Text  im Suchfeld"
+
+#: admin/menu/html-menu-general.php:337
+msgid "Enable submit button"
+msgstr "Aktivieren der Schaltfläche \"Suchen\""
+
+#: admin/menu/html-menu-general.php:358 admin/menu/html-menu-general.php:790
+#: admin/menu/html-menu-general.php:873 admin/menu/html-menu-general.php:910
+#: admin/menu/html-menu-general.php:947 admin/menu/html-menu-general.php:984
+#: admin/menu/html-menu-general.php:1022
+msgid "Label:"
+msgstr "Beschriftung:"
+
+#: admin/menu/html-menu-general.php:374
+msgid "No results label"
+msgstr "Keine Ergebnisse-label"
+
+#: admin/menu/html-menu-general.php:391
+msgid "Did you mean label"
+msgstr "Meinst Du Label"
+
+#: admin/menu/html-menu-general.php:410
+msgid "Popular searches label"
+msgstr "Populäre Suche label"
+
+#: admin/menu/html-menu-general.php:429
+msgid "Minimum number of characters"
+msgstr "Min. Anzahl der Zeichen"
+
+#: admin/menu/html-menu-general.php:438
+msgid "Minimum number of characters required to trigger autosuggestion."
+msgstr "Min. Anzahl der Zeichen für Suchanfrage."
+
+#: admin/menu/html-menu-general.php:453
+msgid "Maximum number of results"
+msgstr "Max. Anzahl der Ergebnisse"
+
+#: admin/menu/html-menu-general.php:463
+msgid ""
+"Maximum number of results showed within the autosuggestion box. (Max 50)."
+msgstr ""
+"Max. Anzahl der Ergebnisse die innerhalb der Auto Vorschlagen Box angezeigt "
+"werden."
+
+#: admin/menu/html-menu-general.php:478
+msgid "Height of the suggestions container"
+msgstr "Höhe des Behälters"
+
+#: admin/menu/html-menu-general.php:490
+msgid ""
+"Automatic calculation = Fit in the screen. Maximum = Maximum place without "
+"scrollbars"
+msgstr ""
+"Automatische Berechnung = passt sich den bildschirm an. Max. = maximal ohne "
+"Scrollbars"
+
+#: admin/menu/html-menu-general.php:492
+msgid "Automatic calculation"
+msgstr "Autom. Berechnung"
+
+#: admin/menu/html-menu-general.php:493
+msgid "Maximum"
+msgstr "Maximal"
+
+#: admin/menu/html-menu-general.php:494
+msgid "Custom value"
+msgstr "Benutzerdefinierter Wert"
+
+#: admin/menu/html-menu-general.php:504
+msgid "Enter custom value for container height"
+msgstr "Geben Sie einen benutzerdefinierten Wert für die Containerhöhe ein"
+
+#: admin/menu/html-menu-general.php:529
+msgid "Suggestions Box Design"
+msgstr "Suchergebnisse Container Design"
+
+#: admin/menu/html-menu-general.php:535
+msgid "Enable Tabs in results"
+msgstr "Aktivieren Sie Tabs in Ergebnisse"
+
+#: admin/menu/html-menu-general.php:551
+msgid "Enable tabs in search results based on selected post types"
+msgstr ""
+"Aktivieren Sie Registerkarten in Suchergebnisse basierend auf ausgewählten "
+"Post-Typen"
+
+#: admin/menu/html-menu-general.php:560
+msgid "Order of the tabs"
+msgstr "Reihenfolge der Tabs:"
+
+#: admin/menu/html-menu-general.php:575
+msgid "Post Type"
+msgstr "Beitragstyp"
+
+#: admin/menu/html-menu-general.php:575 admin/menu/html-menu-general.php:1174
+msgid "Taxonomy"
+msgstr "Taxonomie"
+
+#: admin/menu/html-menu-general.php:579 admin/menu/html-menu-general.php:1175
+msgid "Label"
+msgstr "Label"
+
+#: admin/menu/html-menu-general.php:588 admin/menu/html-menu-general.php:1179
+msgid "Remove"
+msgstr "Löschen"
+
+#: admin/menu/html-menu-general.php:602
+msgid "Add New Tab"
+msgstr "Neuen Tab hinzufügen"
+
+#: admin/menu/html-menu-general.php:610
+msgid "Drag and drop to change the order of the tabs"
+msgstr ""
+"Ziehen und Ablegen (Drag and Drop), um die Reihenfolge der Tabs zu ändern"
+
+#: admin/menu/html-menu-general.php:617
+msgid "Show thumbnail"
+msgstr "Zeige Thumbnail"
+
+#: admin/menu/html-menu-general.php:642
+msgid "Thumbnail size in px"
+msgstr "Miniaturansicht in px"
+
+#: admin/menu/html-menu-general.php:647
+msgid "Width"
+msgstr "Breite"
+
+#: admin/menu/html-menu-general.php:665
+msgid "Height"
+msgstr "Höhe"
+
+#: admin/menu/html-menu-general.php:687
+msgid "Show excerpt"
+msgstr "Artikelauszug angezeigen?"
+
+#: admin/menu/html-menu-general.php:712
+msgid "Enable \"View All\" link"
+msgstr "Zeige Alle Link"
+
+#: admin/menu/html-menu-general.php:728
+msgid "Show View All link in bottom of the suggestions box"
+msgstr "Zeige \"Alle anzeigen\" Link wenn Nötig."
+
+#: admin/menu/html-menu-general.php:737
+msgid "View All Text"
+msgstr "Alle anzeigen label"
+
+#: admin/menu/html-menu-general.php:756
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: admin/menu/html-menu-general.php:767
+msgid "Enable cart button"
+msgstr "Warenkorb aktivieren"
+
+#: admin/menu/html-menu-general.php:805
+msgid "Show price"
+msgstr "Preis anzeigen"
+
+#: admin/menu/html-menu-general.php:828
+msgid "Show rating stars"
+msgstr "Bewertungssterne anzeigen"
+
+#: admin/menu/html-menu-general.php:851
+msgid "Show SKU"
+msgstr "Zeige Art.-Nr"
+
+#: admin/menu/html-menu-general.php:888
+msgid "Show categories"
+msgstr "Kategorien anzeigen"
+
+#: admin/menu/html-menu-general.php:925
+msgid "Show out of stock"
+msgstr "Nicht auf Lager anzeigen"
+
+#: admin/menu/html-menu-general.php:962
+msgid "Show on sale"
+msgstr "im Angebot anzeigen"
+
+#: admin/menu/html-menu-general.php:999
+msgid "Show featured"
+msgstr "Featured anzeigen"
+
+#: admin/menu/html-menu-general.php:1070
+msgid "Select a taxonomy for the tab"
+msgstr "Wählen Sie eine Taxonomie für die Registerkarte"
+
+#: admin/menu/html-menu-reindex.php:56
+msgid "No post types are selected in the settings"
+msgstr "Keine Post-Types sind in den Einstellungen ausgewählt."
+
+#: admin/menu/html-menu-reindex.php:431
+msgid "Posts waiting for reindexing."
+msgstr "Ausstehend"
+
+#: admin/menu/html-menu-reindex.php:435
+msgid "Index"
+msgstr "Index"
+
+#: admin/menu/html-menu-reindex.php:441
+msgid "At Once"
+msgstr "gleichzeitig"
+
+#: admin/menu/html-menu-reindex.php:446
+msgid ""
+"Based on your Server capacities, you can increase the value of indexing at "
+"once. If your value is too high you will get a server timeout error. Restart "
+"the reindexing process and decrease value."
+msgstr ""
+"Basierend auf Ihren Serverkapazitäten können Sie den Wert der gleichzeitigen "
+"Indizierung erhöhen. Wenn Ihr Wert zu hoch ist, erhalten Sie einen Server-"
+"Timeout-Fehler. Starten Sie den Reindexing-Prozess neu und verringern Sie "
+"den Wert."
+
+#: admin/menu/html-menu-reindex.php:451
+msgid "Pause"
+msgstr "Pause"
+
+#: admin/menu/html-menu-reindex.php:454
+msgid "Resume"
+msgstr "Fortsetzen"
+
+#: admin/menu/html-menu-reindex.php:468
+msgid "Reindexing..."
+msgstr "Neuindizierung..."
+
+#: admin/menu/html-menu-reindex.php:470 admin/menu/html-menu-reindex.php:476
+msgid "Please do not close this window."
+msgstr "Bitte diese Seite nicht schliessen!"
+
+#: admin/menu/html-menu-reindex.php:474
+msgid "Checking Logs..."
+msgstr "Protokolle werden überprüft..."
+
+#: admin/menu/html-menu-reindex.php:496
+#, php-format
+msgid ""
+"This window will refresh in <span id=\"time\" class=\"secs\">%s</span> "
+"Seconds"
+msgstr ""
+"Dieses Fenster wird in <span id=\"time\" class=\"secs\">%s</span> Sekunden "
+"aktualisiert."
+
+#: admin/menu/html-menu-reindex.php:498
+msgid "Do not cancel this process. Let i-Search finish indexing."
+msgstr "Diesen Vorgang nicht abbrechen."
+
+#: admin/menu/html-menu-reindex.php:502
+msgid "Done. Please close this window. And reload the i-Search settings page."
+msgstr ""
+"Fertig. Bitte schließen Sie dieses Fenste r.Und laden sie die i-Search "
+"Einstellungen seite neu."
+
+#: admin/menu/html-menu-sidebar-reindex.php:31
+msgid "Important settings changed. You need to re-index your site!"
+msgstr ""
+"Wichtige Einstellungen geändert. Sie müssen Ihre Website neu indexieren!"
+
+#: admin/menu/html-menu-sidebar-reindex.php:34
+msgid ""
+"Reindexing not needed. But if you added some filters maybe you need a "
+"reindexing."
+msgstr ""
+"Reindexing wird nicht benötigt. Aber wenn Sie einige Filter hinzugefügt "
+"haben, brauchen Sie vielleicht eine Neuindizierung."
+
+#: admin/menu/html-menu-sidebar-reindex.php:39
+msgid "Re-index"
+msgstr "Neu indixieren"
+
+#: admin/menu/html-menu-sidebar-reindex.php:48
+msgid "Re-index Now"
+msgstr "Indexieren Sie jetzt neu"
+
+#: admin/menu/html-menu-tabs.php:36
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: admin/menu/html-menu-tabs.php:40
+msgid "Advanced Settings"
+msgstr "Erweiterte Einstellungen"
+
+#: admin/menu/html-menu-tabs.php:44
+msgid "Search Analysis"
+msgstr "Such-Analyse"
+
+#: admin/menu/html-menu-tabs.php:48
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: admin/metabox/class-post-meta-box.php:55
+msgid "i-Search Options"
+msgstr "i-Search Einstellungen"
+
+#: admin/metabox/class-post-meta-box.php:129
+msgid "Include in search results"
+msgstr "Enthalten in den Suchergebnissen"
+
+#: admin/metabox/class-post-meta-box.php:133
+msgid "Exclude from search results"
+msgstr "Ausschliessen aus den Suchergebnissen"
+
+#: admin/metabox/class-post-meta-box.php:139
+#: admin/metabox/html-taxonomy-metabox.php:87
+msgid "Add extra search terms"
+msgstr "Zusätzliche Suchbegriffe"
+
+#: admin/metabox/class-post-meta-box.php:142
+msgid "Add new words"
+msgstr "hinzufügen"
+
+#: admin/metabox/class-post-meta-box.php:160
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: admin/metabox/class-post-meta-box.php:167
+msgid "This post will shown if one of the below words are searched:"
+msgstr ""
+"Dieser Beitrag wird angezeigt, wenn eines der folgenden Wörter durchsucht "
+"wird:"
+
+#: admin/metabox/class-post-meta-box.php:172
+msgid ""
+"* Update the post to see all included terms based on your i-Search settings."
+msgstr ""
+"* Speichern Sie den Beitrag, um alle enthaltenen Begriffe basierend auf "
+"Ihren i-Search-Einstellungen anzuzeigen."
+
+#: admin/metabox/class-post-meta-box.php:175
+msgid "This post is not public. It will be not included in search results."
+msgstr ""
+"Dieser Beitrag ist nicht öffentlich. Es wird nicht in den Suchergebnissen "
+"enthalten sein."
+
+#: admin/metabox/class-post-meta-box.php:183
+#: admin/metabox/class-post-meta-box.php:188
+msgid "Do not apply filters from settings. Include only manuel added terms."
+msgstr ""
+"i-Search Einstellungen nicht anwenden und nur hier angegebene suchbegriffe "
+"verwenden."
+
+#: admin/metabox/class-post-meta-box.php:195
+msgid "Show different image in live search suggestions?"
+msgstr "Aanderes Bild im suchergebniss anzeigen?"
+
+#: admin/metabox/class-post-meta-box.php:210
+#: admin/metabox/html-taxonomy-metabox.php:147
+msgid "Set custom image"
+msgstr "Benutzerdefiniertes Bild festlegen"
+
+#: admin/metabox/class-post-meta-box.php:216
+#: admin/metabox/html-taxonomy-metabox.php:152
+msgid "Remove this image"
+msgstr "Dieses Bild entfernen"
+
+#: admin/metabox/class-post-meta-box.php:286
+#: admin/metabox/html-taxonomy-metabox.php:193
+msgid "Select or Upload Media For i-Search Image"
+msgstr "Medien auswählen oder hochladen"
+
+#: admin/metabox/class-post-meta-box.php:288
+#: admin/metabox/html-taxonomy-metabox.php:195
+msgid "Use this media"
+msgstr "Verwenden"
+
+#: admin/metabox/html-taxonomy-metabox.php:74
+msgid "Exclude from search results?"
+msgstr "Aus den Suchergebnissen ausschließen?"
+
+#: admin/metabox/html-taxonomy-metabox.php:82
+msgid "Yes. Exclude this taxonomy from search suggestions"
+msgstr "Ja. Schließen Sie diese Taxonomie von Suchvorschlägen aus"
+
+#: admin/metabox/html-taxonomy-metabox.php:95
+#: admin/metabox/html-taxonomy-metabox.php:105
+#: admin/metabox/html-taxonomy-metabox.php:114
+msgid "Add new term"
+msgstr "Zusätzliche Suchbegriffe"
+
+#: admin/metabox/html-taxonomy-metabox.php:128
+msgid "Add image"
+msgstr "Bild hinzufügen"
+
+#: admin/metabox/html-taxonomy-metabox.php:133
+msgid "Show image in live search suggestions?"
+msgstr "Bild hinzufügen"
+
+#: front/templates/isrc_ajax_template.php:28
+msgid "Search for:"
+msgstr "Suche:"
+
+#: front/templates/isrc_ajax_template.php:49
+msgid ""
+"jQuery is not available. i-Search need jQuery to work properly. Please "
+"activate jQuery in i-Search settings (Advanced Settings Tab). This notice is "
+"only for administrators visible"
+msgstr ""
+"jQuery ist nicht verfügbar. i-Search benötigt jQuery, um ordnungsgemäß zu "
+"funktionieren. Bitte aktivieren Sie jQuery in den i-Search Einstellungen "
+"(Registerkarte Erweiterte Einstellungen). Diese Benachrichtigung ist nur für "
+"Administratoren sichtbar"
+
+#: i-search-connect/functions.php:236
+#, php-format
+msgid ""
+"<strong>ERROR</strong>: %1$s in %2$s can only contain numbers, letters, and "
+"underscores."
+msgstr ""
+"<strong>ERROR:</strong>: %1$s in %2$s\" kann nur Zahlen, Buchstaben und "
+"Unterstriche enthalten ."
+
+#. Description of the plugin/theme
+msgid "Powerful search engine for your WP."
+msgstr "Leistungsstarke Suchmaschine für Ihr WP."
+
+#. Author of the plugin/theme
+msgid "All4Wp"
+msgstr "all4wp"
